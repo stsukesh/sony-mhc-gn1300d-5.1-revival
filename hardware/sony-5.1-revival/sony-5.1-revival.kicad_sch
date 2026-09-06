@@ -1,0 +1,120 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "936307ec-ff2e-4b68-b34e-0a0684a0c8b0")
+	(paper "A3")
+	(title_block
+		(title "Sony MHC-GN1300D 5.1 System Revival - Master Schematic")
+		(date "2026-09-06")
+		(rev "1.0")
+		(comment 1 "Unified 5.1 Class-D Amp + Active Crossover + ESP32 Web/Serial Hub")
+		(comment 2 "Target Fabrication: Lion Circuits India (150x200mm 2-Layer FR4)")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.80 50.80)
+		(size 76.2 45.72)
+		(fields_autoplaced yes)
+		(stroke (width 0) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "00000000-0000-0000-0000-000000000001")
+		(property "Sheetname" "Power Supply Subsystem" (at 50.80 48.26 0) (effects (font (size 1.524 1.524)) (justify left bottom)))
+		(property "Sheetfile" "power_supply.kicad_sch" (at 50.80 99.06 0) (effects (font (size 1.27 1.27)) (justify left top)))
+		(instances
+			(project "sony-5.1-revival"
+				(path "/936307ec-ff2e-4b68-b34e-0a0684a0c8b0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.40 50.80)
+		(size 76.2 45.72)
+		(fields_autoplaced yes)
+		(stroke (width 0) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "00000000-0000-0000-0000-000000000002")
+		(property "Sheetname" "Amplifier Subsystem" (at 152.40 48.26 0) (effects (font (size 1.524 1.524)) (justify left bottom)))
+		(property "Sheetfile" "amplifier.kicad_sch" (at 152.40 99.06 0) (effects (font (size 1.27 1.27)) (justify left top)))
+		(instances
+			(project "sony-5.1-revival"
+				(path "/936307ec-ff2e-4b68-b34e-0a0684a0c8b0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254.00 50.80)
+		(size 76.2 45.72)
+		(fields_autoplaced yes)
+		(stroke (width 0) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "00000000-0000-0000-0000-000000000003")
+		(property "Sheetname" "Crossover & Input Subsystem" (at 254.00 48.26 0) (effects (font (size 1.524 1.524)) (justify left bottom)))
+		(property "Sheetfile" "crossover_input.kicad_sch" (at 254.00 99.06 0) (effects (font (size 1.27 1.27)) (justify left top)))
+		(instances
+			(project "sony-5.1-revival"
+				(path "/936307ec-ff2e-4b68-b34e-0a0684a0c8b0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.80 127.00)
+		(size 76.2 45.72)
+		(fields_autoplaced yes)
+		(stroke (width 0) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "00000000-0000-0000-0000-000000000004")
+		(property "Sheetname" "ESP32 Controller Subsystem" (at 50.80 124.46 0) (effects (font (size 1.524 1.524)) (justify left bottom)))
+		(property "Sheetfile" "controller.kicad_sch" (at 50.80 175.26 0) (effects (font (size 1.27 1.27)) (justify left top)))
+		(instances
+			(project "sony-5.1-revival"
+				(path "/936307ec-ff2e-4b68-b34e-0a0684a0c8b0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.40 127.00)
+		(size 76.2 45.72)
+		(fields_autoplaced yes)
+		(stroke (width 0) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "00000000-0000-0000-0000-000000000005")
+		(property "Sheetname" "Protection & Terminals" (at 152.40 124.46 0) (effects (font (size 1.524 1.524)) (justify left bottom)))
+		(property "Sheetfile" "protection.kicad_sch" (at 152.40 175.26 0) (effects (font (size 1.27 1.27)) (justify left top)))
+		(instances
+			(project "sony-5.1-revival"
+				(path "/936307ec-ff2e-4b68-b34e-0a0684a0c8b0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+		(path "/00000000-0000-0000-0000-000000000001"
+			(page "2")
+		)
+		(path "/00000000-0000-0000-0000-000000000002"
+			(page "3")
+		)
+		(path "/00000000-0000-0000-0000-000000000003"
+			(page "4")
+		)
+		(path "/00000000-0000-0000-0000-000000000004"
+			(page "5")
+		)
+		(path "/00000000-0000-0000-0000-000000000005"
+			(page "6")
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sony-revival")(type "KiCad")(uri "${KIPRJMOD}/libs/sony-revival.kicad_sym")(options "")(descr "Sony 5.1 Revival Custom Symbols"))
+)

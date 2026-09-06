@@ -1,0 +1,39 @@
+Reference,Value,Footprint,Description,Manufacturer / Source,Unit Cost (INR),Quantity,Subtotal (INR)
+"U_AMP1, U_AMP2, U_AMP3",TPA3116D2,HTSSOP-32-1EP,50W Stereo / 100W Mono Class-D Audio Amp,Texas Instruments / Robu.in,250,3,750
+"U_OP1, U_OP2, U_OP3",NE5532,SOIC-8,Dual Low-Noise Audio Operational Amplifier,Texas Instruments / LCSC,35,3,105
+U_MCU,ESP32-WROOM-32,Module_ESP32,Dual-Core Wi-Fi & BLE Microcontroller,Espressif / Robu.in,420,1,420
+U_BT,QCC3008_MODULE,PinHeader_1x12_P2.54mm,Bluetooth 5.0 Audio Module (aptX/aptX-LL),Qualcomm / AliExpress / Robu.in,550,1,550
+DISP1,"2.42"" SSD1309 OLED",Connector_PinHeader_1x07,128x64 White SPI OLED Display Module,Robu.in / Amazon.in,650,1,650
+U_VOL,MCP4252,SOIC-14,Dual 8-Bit SPI Digital Potentiometer,Microchip / Mouser / LCSC,260,1,260
+U_MUX,CD4052,SOIC-16,Dual 4-Channel Analog Multiplexer,TI / NXP / LCSC,40,1,40
+U_BUCK,LM2596-5.0,TO-263-5,3A Step-Down Voltage Switching Regulator,Texas Instruments / LCSC,65,1,65
+U_LDO,AMS1117-3.3,SOT-223,1A Low-Dropout Linear Voltage Regulator,Advanced Monolithic / LCSC,18,1,18
+U_VGND,TLE2426,TO-92,Precision Virtual Ground Rail Splitter,Texas Instruments / Mouser,120,1,120
+BR1,KBU810,Bridge_Rectifier_D-44,8A 1000V Silicon Single-Phase Bridge,Vishay / Robu.in,45,1,45
+T1,230V:18V 200VA,Toroidal_Chassis_Mount,Toroidal Step-Down Power Transformer,Miracle / Toroid India,1800,1,1800
+K1,SRD-05VDC-SL-C,Relay_SPST_Songle,5V Coil 10A 250VAC SPST Power Relay,Songle / Robu.in,45,1,45
+Q1,2N2222,SOT-23,40V 800mA NPN Bipolar Transistor,ON Semi / LCSC,6,1,6
+D_FLY,1N4007,SMA_DO-214AC,1A 1000V General Purpose Rectifier Diode,Diodes Inc / LCSC,5,1,5
+D_BUCK,1N5822,SMC_DO-214AB,3A 40V Schottky Barrier Diode,Vishay / LCSC,15,1,15
+D_CLAMP,BZX84C3V3,SOT-23,3.3V 350mW Zener Voltage Clamping Diode,Nexperia / LCSC,8,1,8
+PF1..PF6,MF-MSMF200 (2A),Fuse_1812_4532Metric,2A 30V Resettable PTC Polyfuses,Bourns / LCSC,22,6,132
+TH_NTC,10k NTC 3950,Ring_Lug_Mount,10k Beta=3950 Thermal Sensor with Wire,Robu.in / Amazon.in,40,1,40
+U_IR,TSOP1738,Through_Hole_3Pin,38kHz Infrared Remote Receiver IC,Vishay / Robu.in,30,1,30
+ENC1,EC11,RotaryEncoder_Switch,Incremental Rotary Encoder with Push Switch,Alps / Bourns / Robu.in,55,1,55
+L_BUCK,33uH 3A,Inductor_SMD_12x12mm,Shielded Power Inductor for Buck Converter,Coilcraft / Wurth / LCSC,45,1,45
+L1..L12,22uH 5A,Inductor_SMD_10x10mm,Shielded Class-D Output Filter Inductors,Coilcraft / Wurth / Robu.in,35,12,420
+"C1, C2",4700uF 35V,Radial_D18mm_P7.5mm,Low-ESR High-Ripple Electrolytic Capacitors,Nichicon / Panasonic / Robu.in,95,2,190
+C_BULK1..3,1000uF 35V,Radial_D12.5mm_P5mm,Low-ESR Local Rail Decoupling Capacitors,Rubycon / Nichicon / Robu.in,35,3,105
+C_O1..C_O12,680nF 63V,Film_Box_7.2x4.5mm,Metallized Polypropylene Audio Filter Caps,WIMA / Epcos / LCSC,22,12,264
+C_F1..C_F12,100nF 50V 5%,Film_Box_5mm_Pitch,Precision Film Caps for Sallen-Key Crossover,KEMET / WIMA / LCSC,14,12,168
+C_DEC,100nF 50V X7R,0805_Metric,Ceramic Decoupling Capacitors,Murata / Yageo / LCSC,2,35,70
+C_IN1..6,1.0uF 50V,Film_Box_5mm_Pitch,Audio Coupling Capacitors,WIMA / Panasonic / LCSC,18,6,108
+R_PASSIVES,Assorted 1% Resistors,0805_Metric,"Metal Film Precision Resistors (20k, 16k, 10k, 1k, etc.)",Yageo / Vishay / LCSC,1.5,50,75
+J_SPK1..J_SPK6,2-Pin 5.08mm Screw,TerminalBlock_1x02_P5.08mm,Heavy Duty Speaker Screw Terminals,Phoenix Contact / Robu.in,25,6,150
+J_AC,3-Pin 5.08mm Screw,TerminalBlock_1x03_P5.08mm,"Mains Power Screw Terminal (L, N, PE)",Phoenix Contact / Robu.in,35,1,35
+J_AUX,3.5mm Stereo Jack,AudioJack3_Switch,3.5mm PCB Mount Stereo Audio Jack,CUI Devices / Robu.in,30,1,30
+F1 + HOLDER,3A 250V 5x20mm,FuseHolder_5x20mm,Fast-Blow Cartridge Fuse & Safety Clips,Littelfuse / Robu.in,35,1,35
+RV1,14D431K,Varistor_14mm_Pitch7.5,275V Metal Oxide Varistor Surge Suppressor,Bourns / TDK / Robu.in,20,1,20
+HEATSINK,Aluminium Extrusion,Custom_Chassis_Mount,Black Anodized Aluminium Heatsink for 3x TPA3116,Local Fabrication / Amazon.in,450,1,450
+PCB_FAB,150x200mm 2-Layer,Lion_Circuits_Standard,"5x Custom Manufactured PCBs (1.6mm FR4, HASL)",Lion Circuits India,1450,1,1450
+HARDWARE_MISC,"Standoffs, Screws, Thermal Tape",Misc_Hardware,"M3 Brass Standoffs, Screws, Silicone Thermal Pads",Local Hardware / Amazon.in,350,1,350

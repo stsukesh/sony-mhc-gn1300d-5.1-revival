@@ -1,0 +1,71 @@
+{
+  "board": {
+    "design_settings": {}
+  },
+  "meta": {
+    "filename": "sony-5.1-revival.kicad_pro",
+    "version": 1
+  },
+  "netlink": {
+    "rules": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "auto_route": "",
+      "board_outline": "",
+      "footprints": "",
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    }
+  },
+  "schematic": {
+    "drawing": {
+      "default_line_thickness": 0.1524,
+      "default_text_size": 1.27
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "page_layout_descr_file": "",
+    "symbol_libs": [
+      {
+        "name": "sony-revival",
+        "type": "Project",
+        "uri": "${KIPRJMOD}/libs/sony-revival.kicad_sym"
+      }
+    ]
+  },
+  "sheets": [
+    [
+      "936307ec-ff2e-4b68-b34e-0a0684a0c8b0",
+      "Root"
+    ],
+    [
+      "00000000-0000-0000-0000-000000000001",
+      "Power Supply Subsystem"
+    ],
+    [
+      "00000000-0000-0000-0000-000000000002",
+      "Amplifier Subsystem"
+    ],
+    [
+      "00000000-0000-0000-0000-000000000003",
+      "Crossover & Input Subsystem"
+    ],
+    [
+      "00000000-0000-0000-0000-000000000004",
+      "ESP32 Controller Subsystem"
+    ],
+    [
+      "00000000-0000-0000-0000-000000000005",
+      "Protection & Terminals"
+    ]
+  ],
+  "text_variables": {}
+}

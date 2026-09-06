@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6-1.fc43*%
+%TF.CreationDate,2026-09-07T00:45:24+05:30*%
+%TF.ProjectId,sony-5.1-revival,736f6e79-2d35-42e3-912d-726576697661,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.6-1.fc43) date 2026-09-07 00:45:24*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X50000000Y-50000000D02*
+X250000000Y-50000000D01*
+X250000000Y-200000000D01*
+X50000000Y-200000000D01*
+X50000000Y-50000000D01*
+M02*

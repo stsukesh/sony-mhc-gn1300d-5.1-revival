@@ -1,0 +1,27 @@
+#pragma once
+
+#define SYSTEM_NAME "SONY 5.1 REVIVAL"
+#define SYSTEM_VERSION "1.0.0"
+
+#define DEFAULT_VOLUME 128
+#define MAX_VOLUME 255
+#define MIN_VOLUME 0
+
+#define DEFAULT_INPUT 0 // INPUT_BLUETOOTH
+
+#define CROSSOVER_FREQUENCY 80
+
+// Protection thresholds
+#define NTC_WARN_THRESHOLD 2048
+#define NTC_SHUTDOWN_THRESHOLD 1024
+#define DC_OFFSET_THRESHOLD 200
+#define DC_OFFSET_SUSTAINED_MS 500
+#define STARTUP_DELAY_MS 3000
+#define FAULT_DEBOUNCE_MS 100
+
+// WiFi Settings
+#define WIFI_AP_SSID "Sony5.1-Revival"
+#define WIFI_AP_PASS "sony1300d"
+
+#define NVS_NAMESPACE "audio_cfg"
+#define WDT_TIMEOUT_SECONDS 10

@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.6-1.fc43"
     },
-    "CreationDate": "2026-09-07T00:45:24+05:30"
+    "CreationDate": "2026-09-07T01:25:58+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "sony-5.1-revival",
       "GUID": "736f6e79-2d35-42e3-912d-726576697661",
-      "Revision": "1.0"
+      "Revision": "2.0"
     },
     "Size": {
       "X": 200.2,
@@ -27,9 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.35,
-      "TrackToRegion": 0.4,
-      "RegionToRegion": 0.4
+      "MinLineWidth": 0.4
     }
   ],
   "FilesAttributes": [
